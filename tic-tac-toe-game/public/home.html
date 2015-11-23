@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/csstictactoe.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jsttt.js"></script>
+
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+  <h1 id = "title">Tic Tac Toe</h1>
+    <div class="container">
+
+    <form id="players">
+      <div class="form-group"
+      <label for="player_one"></label>
+      <input id="player_one" class="form-control" type="text">
+    </div>
+      <div class="form-group">
+      <label for="player_two"></label>
+      <input id="player_two" class="form-control" type="text">
+      </div>
+      <button id="fish" type="submit" class="btn">Enter</button>
+    </form>
+    <div id = "gameinfo">
+      <button id="reset_game" type="submit" class="btn">Play Again</button>
+      <h2 id="name_1"></h2>
+      <h2 id="name_2"></h2>
+    </div>
+      <div id = "gameboard">
+
+          <table class = "grid">
+            <thead>
+              <tbody>
+                <tr id= "toprow" class = "row">
+                  <td id = "field1" class = "cell"><span></span></td>
+                  <td id = "field2" class = "cell"><span></span></td>
+                  <td id = "field3" class = "cell"><span></span></td>
+                </tr>
+                <tr id= "middlerow" class = "row">
+                  <td id = "field4" class = "cell"><span></span></td>
+                  <td id = "field5" class = "cell"><span></span></td>
+                  <td id = "field6" class = "cell"><span></span></td>
+                </tr>
+                <tr id= "bottomrow" class = "row">
+                  <td id = "field7" class = "cell"><span></span></td>
+                  <td id = "field8" class = "cell"><span></span></td>
+                  <td id = "field9" class = "cell"><span></span></td>
+                </tr>
+              </tbody>
+            </thead>
+          </table>
+      </div>
+          <div id="display_cat_game"><img src="css/cat.gif"></div>
+          <div id="win_count_box"></div>
+
+    </div>
+  </body>

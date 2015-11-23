@@ -1,0 +1,126 @@
+body {
+  background-image: url("sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+
+}
+#gameboard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  margin-top: 5%;
+  display: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+.cell:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+#title {
+  color: #B39229;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#fish{
+  background-image: url("/Users/learn07/Desktop/sam_mike_learn_exercises/week_two/day 5/css/fish.png");
+  width:170px;
+  height:145px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: bolder;
+  color: white;
+  font-size: 1.5em;
+  text-align: left;
+
+}
+#field1 {
+  border-bottom: 5px solid #B39229;
+
+}
+
+#field2 {
+  border-bottom: 5px solid #B39229;
+  border-right: 5px solid #B39229;
+  border-left: 5px solid #B39229;
+
+}
+
+#field3 {
+  border-bottom: 5px solid #B39229;
+
+}
+
+#field4 {
+  border-top:5px solid #B39229;
+  border-right:5px solid #B39229;
+  border-bottom:5px solid #B39229;
+}
+
+#field6 {
+  border-top:5px solid #B39229;
+  border-left:5px solid #B39229;
+  border-bottom:5px solid #B39229;
+}
+
+#field7 {
+  border-right: 5px solid #B39229;
+}
+
+#field8 {
+  border-top: 5px solid #B39229;
+}
+
+#field9 {
+  border-left:5px solid #B39229;
+}
+
+.x {
+  /*background-image: url("css/x_image.png");*/
+  height: 95px;
+  width: 95px;
+}
+
+.o {
+  height: 95px;
+  width: 95px;
+}
+
+#reset_game {
+  background-image: url("/Users/learn07/Desktop/sam_mike_learn_exercises/week_two/day 5/css/fish.png");
+  width:170px;
+  height:145px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0);
+  font-weight: bolder;
+  color: white;
+  font-size: 1.5em;
+  text-align: left;
+display:none;
+}
+
+h2 {
+  color:white;
+}
+
+#display_cat_game {
+  display:none;
+}
+
+#win_count_box {
+  color: white;
+  font-size: 3em;
+  margin-top: 20px;
+}
